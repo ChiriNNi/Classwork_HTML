@@ -1,0 +1,96 @@
+/* .scroll{
+    width: 400px;
+    height: 400px;
+    overflow: scroll;
+}
+
+.block-1{
+    width: 900px;
+    height: 400px;
+    border: 1px solid red;
+}
+
+.block-2{
+    margin: auto; 
+    width: 80px;
+    height: 40px;
+    border: 1px dotted blue;
+} */
+
+/* .menu{
+    background-color: rgb(70, 65, 65);
+    color: white; 
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(70, 65, 65);
+    margin-top: 10px;
+    padding-left: 5px;
+    position: relative
+}
+
+.block{ 
+    width: 700px;
+    height: 300px; 
+    border: 1px solid black;
+}
+.news{ 
+    height: 278px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title{
+    color: blue; 
+} */
+
+.block{
+    display: flex;
+}
+
+.iphone{
+    width: 270px;
+    height: 560px;
+    border: 5px solid black;
+    border-radius: 25px;
+    background-image: url(ip.jpg);
+}
+
+.camera-iphone{
+    height: 20px;
+    width: 120px;
+    border: 3px solid black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: black;
+    margin: auto;
+}
+
+.samsung{
+    width: 270px;
+    height: 560px;
+    border: 5px solid black;
+    border-radius: 25px;
+    background-image: url(ip.jpg);
+    margin-left: 50px;
+}
+
+.camera-samsung{
+    width: 25px;
+    height: 13px;
+    border: 3px solid black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: black;
+    margin: auto;
+}
+
+.camera-in-samsung{
+    width: 7px;
+    height: 7px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    background-color: black;
+    margin: auto;
+}
