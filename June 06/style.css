@@ -42,8 +42,21 @@ h1{
 }
 
 .scroll{
+    height: 1200px;
     overflow: scroll;
-    height: 500px;
+}
+
+.film{
+    display: flex;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 20px;
+}
+
+.film-image{
+    width: 200px;
+    height: 300px;
+    margin-left: 10px;
 }
 
 .footer{
