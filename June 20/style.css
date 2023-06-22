@@ -224,11 +224,14 @@
     color: #7D7987;
 }
 
-.page-5{
+.block{
     display: flex;
+    justify-content: space-around;
 }
 
 .page-5-caption{
+    margin-bottom: 100px;
+
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 700;
@@ -241,6 +244,7 @@
 .page-5-sub-info{
     width: 450px;
     height: 144px;
+    margin-top: 20px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -251,6 +255,8 @@
 }
 
 .page-5-author{
+    margin-top: 20px;
+    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
